@@ -18,7 +18,7 @@
       """
       Validity = True
       for j in range(len(matrix)):
-        if VecCheck(matrix[j]) != True:
+        if VecCheck(matrix[j]) != True: #calls VecCheck function to check columns of a matrix
           Validity = False
           return Validity
       print("Validity")
